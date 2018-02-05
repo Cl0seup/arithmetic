@@ -1,0 +1,26 @@
+div {
+	background-color: black;
+	color: white;
+	width: 200px;
+	height:200px;
+	position: relative;
+	margin-left: 500px;
+	border-radius:50px;
+	padding: 30px;
+	text-align: center;
+	transition-duration: 2s;
+	animation-name: divison;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+}
+div:hover
+{
+	background-color: red;
+	border-radius: 100px;
+}
+@keyframes divison
+{
+	0%{  left:0px;top: 0px; }
+	100%{ left: 500px;top: 0px;}
+}
+
