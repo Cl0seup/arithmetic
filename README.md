@@ -1,2 +1,2 @@
 # Calculations
-basic arthmetic opertions
+basic arithmetic opertions
