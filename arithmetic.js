@@ -23,10 +23,7 @@ function table() {
 }
 table();
 
-function square() {
-	document.write("<br>" + "Square is :-" + "  " + a * a, "<br>");
-}
-square();
+document.write("<br>" + "Square is :-" + "  " + a * a, "<br>");
 
 document.write("<br>" + " Square root is :-" + " " + Math.sqrt(a) + "<br>" + "<br>");
 
