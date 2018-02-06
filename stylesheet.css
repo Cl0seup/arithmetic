@@ -1,31 +1,38 @@
+/*
 div {
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    border-radius: 50px;
-    padding: 30px;
-    text-align: center;
-    transition-duration: 2s;
-    animation-name: divison;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border-radius: 50px;
+	padding: 30px;
+	text-align: center;
+	transition-duration: 2s;
+	animation-name: divison;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
 }
 
 div:hover {
-    background-color: red;
-    border-radius: 100px;
+	background-color: red;
+	border-radius: 100px;
 }
 
 @keyframes divison {
-    0% {
-        left: 0px;
-    }
-    50% {
-        left: 500px;
-    }
-    100% {
-        left: 0px;
-    }
+	0% {
+		left: 0px;
+	}
+	50% {
+		left: 500px;
+	}
+	100% {
+		left: 0px;
+	}
+}*/
+
+.style {
+	font-size: 200;
+	font-style: italic;
+	font-display: block;
 }
