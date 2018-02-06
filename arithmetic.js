@@ -3,7 +3,7 @@ a = prompt("Enter a value");
 
 document.write("<div class='style'>");
 
-document.write("Given number is :-" + a);
+document.write("Given value is :-" + a);
 document.write("<br>" + "<br>");
 
 function table() {
