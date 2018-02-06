@@ -30,6 +30,17 @@ function numbers() {
 }
 numbers();
 
+function addition() {
+
+	document.write("Addition of numbers from 1 to" + " " + a + ":" + " ");
+	for (i = 1; i <= a; i++) {
+		document.write(i);
+	}
+	document.write("<br>" + "<br>");
+
+}
+addition();
+
 function numbertype() {
 	if (a % 2 == 0) {
 		document.write("Number is Prime number:-" + " " + a);
@@ -58,12 +69,4 @@ function oddnumbers() {
 }
 oddnumbers();
 
-function addition() {
-	var sum = 0;
-	for (i = 1; i <= a; i++) {
-		document.write(i);
-	}
-
-}
-addition();
 document.write("</div>");

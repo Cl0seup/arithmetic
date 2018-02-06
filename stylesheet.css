@@ -32,7 +32,15 @@ div:hover {
 }*/
 
 .style {
-	font-size: 200;
+	font-size: 25px;
 	font-style: italic;
-	font-display: block;
+	color: white;
+}
+
+body {
+
+	background: black;
+	border: 25px solid green;
+	margin: 0px;
+	padding: 30px;
 }
