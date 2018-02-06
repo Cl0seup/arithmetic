@@ -32,17 +32,18 @@ div:hover {
 }*/
 
 .style {
+	border-radius: 100px;
 	font-size: 25px;
 	font-style: italic;
 	color: white;
+	border: 25px solid green;
 }
 
 body {
-
-	background: black;
-	border: 25px solid green;
-	border-radius: 100px;
 	margin: 0px;
+	background: black;
+	border: 25px;
+	border-radius: 100px;
 	padding-top: 30px;
 	padding-left: 50px;
 	padding-right: 30px;

@@ -1,17 +1,15 @@
 var a;
 a = prompt("Enter a value");
-
 document.write("<div class='style'>");
-
 document.write("Given value is :-" + " " + a);
 document.write("<br>" + "<br>");
 
 function numbers() {
-	document.write("Numbers from 1 to " + a + " :-" + " ");
+	document.write("<p>", "Numbers from 1 to " + a + " :-" + " ");
 	for (i = 1; i <= a; i++) {
 		document.write(i + ",");
 	}
-	document.write("<br>" + "<br>");
+	document.write("</p>", "<br>" + "<br>");
 }
 numbers();
 
