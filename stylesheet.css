@@ -41,6 +41,7 @@ body {
 
 	background: black;
 	border: 25px solid green;
+	border-radius:20px;
 	margin: 0px;
 	padding: 30px;
 }
