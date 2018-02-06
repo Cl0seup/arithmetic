@@ -1,26 +1,20 @@
  var a;
  a = prompt("enter a value");
- /* document.write("<div>");
-  for (i = 1; i <= 10; i++) {
-      document.write(a + "*" + i + "=");
-      document.write(a * i, "<br>");
-  }
-  document.write("</div>");*/
 
  function table() {
-     document.write("table is :" + "<br>")
+     document.write("Table is :" + "<br>")
      for (i = 1; i <= 10; i++) {
          document.write(a + "*" + i + "=", a * i, "<br>");
      }
  }
-
  table();
 
  function square() {
-     document.write("<br>" + "square is :", +a * a, "<br>");
+     document.write("<br>" + "Square is :", +a * a, "<br>");
  }
  square();
- document.write("<br>" + " square root is :" + Math.sqrt(a) + "<br>" + "<br>");
+
+ document.write("<br>" + " Square root is :" + Math.sqrt(a) + "<br>" + "<br>");
 
  function numbers() {
      document.write("Numbers are :");
@@ -30,6 +24,16 @@
      document.write("<br>" + "<br>");
  }
  numbers();
+
+ function numbertype() {
+     if (a % 2 == 0) {
+         document.write("Number is Prime number:" + a);
+     } else if (a % 2 != 0) {
+         document.write("Number is Odd number :" + a);
+     }
+     document.write("<br>" + "<br>");
+ }
+ numbertype();
 
  function primenumbers() {
      document.write("Prime numbers are :");
@@ -42,7 +46,7 @@
 
  function oddnumbers() {
      document.write("Odd numbers  are :");
-     for (i = 2; i <= a; i += 1) {
+     for (i = 1; i <= a; i += 2) {
          document.write(i + ",");
      }
  }
