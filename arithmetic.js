@@ -1,15 +1,14 @@
 var a;
 a = prompt("Enter a value");
-document.write("<div class='style'>");
 document.write("Given value is :-" + " " + a);
 document.write("<br>" + "<br>");
 
 function numbers() {
-	document.write("<p>", "Numbers from 1 to " + a + " :-" + " ");
+	document.write("Numbers from 1 to " + a + " :-" + " ");
 	for (i = 1; i <= a; i++) {
 		document.write(i + ",");
 	}
-	document.write("</p>", "<br>" + "<br>");
+	document.write("<br>" + "<br>");
 }
 numbers();
 
@@ -25,23 +24,11 @@ document.write("<br>" + "Square is :-" + "  " + a * a, "<br>");
 
 document.write("<br>" + " Square root is :-" + " " + Math.sqrt(a) + "<br>" + "<br>");
 
-/*
-function addition() {
-
-	document.write("Addition of numbers from 1 to" + " " + a + ":-" + " ");
-	for (a = 1; a <= 100; a++) {
-		document.write(n[a]);
-	}
-	document.write("<br>" + "<br>");
-
-}
-addition();
-*/
 function numbertype() {
 	if (a % 2 == 0) {
 		document.write("This is  a prime number:-" + " " + a);
 	} else if (a % 2 != 0) {
-		document.write("This is an Odd number :-" + " " + a);
+		document.write("This is an odd number :-" + " " + a);
 	}
 	document.write("<br>" + "<br>");
 }
@@ -52,6 +39,7 @@ function primenumbers() {
 	for (i = 2; i <= a; i += 2) {
 		document.write(i + ",");
 	}
+
 	document.write("<br>" + "<br>");
 }
 primenumbers();
@@ -64,5 +52,3 @@ function oddnumbers() {
 	document.write("<br>" + "<br>");
 }
 oddnumbers();
-
-document.write("</div>");
