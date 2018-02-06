@@ -1,5 +1,5 @@
 var a;
-a = prompt("Enter a number");
+a = prompt("Enter a value");
 
 document.write("<div class='style'>");
 
@@ -33,6 +33,7 @@ numbers();
 function addition() {
 
 	document.write("Addition of numbers from 1 to" + " " + a + ":" + " ");
+
 	for (i = 1; i <= a; i++) {
 		document.write(i);
 	}
