@@ -1,8 +1,15 @@
 body {
 	margin: 0px;
+
+}
+
+div {
 	background: black;
 	padding: 50px;
 	font-size: 25px;
 	font-style: italic;
 	color: white;
+	overflow: auto;
+	border: 50px solid green;
+	border-radius: 150px;
 }
