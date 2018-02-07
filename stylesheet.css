@@ -10,6 +10,6 @@ div {
 	font-style: italic;
 	color: white;
 	overflow: auto;
-	border: 10px solid green;
+	border: 3px solid green;
 	border-radius: 150px;
 }
